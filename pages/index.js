@@ -13,8 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="bg-gray-900 text-white h-screen">
-        <h1 className="font-italiana">Boudreaux Couture</h1>
+      <main className="bg-black text-white h-screen w-screen">
         <Hero />
       </main>
       <Footer />
