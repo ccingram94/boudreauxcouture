@@ -13,10 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="bg-black text-white h-screen">
+      <main className="bg-gray-900 text-white h-screen">
         <h1 className="font-italiana">Boudreaux Couture</h1>
-        <h2 className="font-italiana">Jewels from the Heart of Texas </h2>
-        <p className="font-robot">Est 2022</p>
         <Hero />
       </main>
       <Footer />

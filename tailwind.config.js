@@ -6,9 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'bluebonnets': "url('/bluebonnets.jpg')",
+      },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
         'italiana': ['Italiana', 'serif'],
+        'cinzel': ['Cinzel', 'serif'],
       },
     },
   },
