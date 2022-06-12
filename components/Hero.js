@@ -18,13 +18,13 @@ export default function Hero () {
                     <div className="max-w-lg p-6 m-6 border-2 border-blue-300 border-opacity-80 bg-gray-900">
                         <h1 className="text-xl md:text-2xl">HEART OF TEXAS COLLECTION</h1>
                         <hr />
-                        <h2 className="text-md md:text-md">Moissanite ❦ 14k Gold ❦ Silver</h2>
+                        <h2 className="text-md md:text-md">Engagement Rings ❦ Wedding Bands</h2>
                         <button className="bg-blue-300 p-3 m-3 rounded-sm">explore</button>
                     </div>
                     <div className="max-w-lg p-6 m-6 border-2 border-blue-300 border-opacity-80 bg-gray-900">
                         <h1 className="text-xl md:text-2xl">LONE STAR COLLECTION</h1>
                         <hr />
-                        <h2 className="text-md md:text-md">Gemstone and CZ ❦ 14k Gold ❦ Silver</h2>
+                        <h2 className="text-md md:text-md">Gemstone ❦ 14k Gold ❦ Silver</h2>
                         <button className="bg-blue-300 p-3 m-3 rounded-sm">explore</button>
                     </div>
                 </div>
