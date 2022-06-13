@@ -1,14 +1,19 @@
 import Link from 'next/link'
 
+
 export default function Hero () {
     return (
-        <div>
-            <div className="w-screen h-screen">
-                <div className="flex flex-col flex-wrap text-center text-white font-cinzel p-6 pt-20">
-                    <h2 className="text-sm md:text-lg">explore our timeless</h2>
-                    <h1 className="text-lg md:text-3xl">☙ CURATED COLLECTIONS ❧</h1>
-                    <h2 className="text-sm md:text-md">14k Gold / Sterling Silver</h2>
+        <div className="w-screen h-full flex flex-row flex-wrap text-center justify-center">
+            <div className="w-full lg:w-1/2 h-full">
+                <div className="w-full">
+                    <video loop="true" autoplay="autoplay" muted className="w-full">
+                        <source src="brides.mp4" type="video/mp4" />
+                    </video>
                 </div>
+            </div>
+            <div className="bg-blue-100 w-screen lg:w-1/2 text-blue-900 font-cinzel text-center p-12">
+                <h1 className="text-xl md:text-2xl pt-6 lg:pt-12">unique rings for every bride</h1>
+                <h2>engagement rings wedding bands bridal</h2>
             </div>
         </div>
     )

@@ -2,9 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import Subheader from '../components/Subheader'
-import Hero from '../components/Hero'
+import Hero from '../components/Curated'
 import Footer from '../components/Footer'
-import engagement1 from '../public/engagement1.webp'
 
 export default function Wedding() {
   return (
