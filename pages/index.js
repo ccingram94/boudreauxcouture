@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Subheader from '../components/Subheader'
+import Bestsellers from '../components/Bestsellers'
 import Curated from '../components/Curated'
 import Footer from '../components/Footer'
+import Mailing from '../components/Mailing'
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
       <Header />
       <main className="bg-black text-white h-full w-screen">
         <Hero />
+        <Bestsellers />
         <Curated />
+        <Mailing />
       </main>
       <Footer />
     </div>
