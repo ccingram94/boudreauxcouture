@@ -1,7 +1,9 @@
 import { ShoppingCartIcon, UserIcon } from '@heroicons/react/outline'
+import { useSession, signIn, signOut } from 'next-auth/react'
 import Link from 'next/link'
 
 export default function Header () {
+    const { data: session } = useSession()
     return (
         <div className="flex flex-row w-screen text-white bg-bluebonnets bg-cover bg-bottom">
             <div className="flex flex-row flex-wrap justify-between justify-center items-center w-full bg-blue-900 bg-opacity-80 drop-shadow-xl">
@@ -12,9 +14,18 @@ export default function Header () {
                     <Link href="/cart">
                         <ShoppingCartIcon className="h-12 w-12 md:text-xl p-3" />
                     </Link>
-                    <Link href="/profile">
-                        <UserIcon className="h-12 2-12 md:text-xl p-3" />
-                    </Link>
+                    {!session && 
+                        <div>
+                            <UserIcon onClick={() => signIn()} className="h-12 2-12 md:text-xl p-3" />
+                        </div>
+                    }
+                    {session && 
+                        <div>
+                            <Link href="/profile">
+                                <UserIcon className="h-12 2-12 md:text-xl p-3" />
+                            </Link>
+                        </div>
+                    }
                 </div>
             </div>
         </div>

@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
-import Subheader from '../components/Subheader'
 import Hero from '../components/Hero'
+import Subheader from '../components/Subheader'
+import Curated from '../components/Curated'
 import Footer from '../components/Footer'
 
 export default function Home() {
@@ -15,8 +16,9 @@ export default function Home() {
       </Head>
       <Subheader />
       <Header />
-      <main className="bg-black text-white h-screen w-screen">
+      <main className="bg-black text-white h-full w-screen">
         <Hero />
+        <Curated />
       </main>
       <Footer />
     </div>
