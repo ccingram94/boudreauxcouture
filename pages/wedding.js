@@ -25,7 +25,6 @@ export default function Wedding() {
           </div>
           <div className="flex flex-row flex-wrap font-cinzel justify-center">
             <div className="bg-gray-900 m-12 p-6 rounded-md text-center">
-              <Image className="rounded-sm" src={engagement1} />
               <div className="p-6 text-center">
                 <h2 className="text-xl md:text-2xl">Product Name</h2>
                 <h3 className="text-md md:text-xl">$250.00</h3>
