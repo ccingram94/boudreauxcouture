@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'bluebonnets': "url('/bluebonnets.jpg')",
+        'austin': "url('/austin.jpg')",
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],

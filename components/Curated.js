@@ -11,9 +11,9 @@ export default function Curated () {
                 </div>
                 <div className="flex flex-row flex-wrap text-center justify-center font-cinzel text-white p-6 pt-10">
                     <div className="max-w-lg p-6 m-6 border-2 border-blue-300 border-opacity-80 bg-gray-900">
-                        <h1 className="text-xl md:text-2xl">GULF TREASURE COLLECTION</h1>
+                        <h1 className="text-xl md:text-2xl p-2">The Austin Collection</h1>
                         <hr />
-                        <h2 className="text-md md:text-md">Pearls ❦ 14k Gold ❦ Silver</h2>
+                        <h2 className="text-md md:text-md p-2">Freshwater Pearls ❦ Gold Tones ❦ Amethyst ❦ Citrine ❦ Wildflowers ❦ Resin ❦ 925 Sterling Silver</h2>
                         <Link href="/pearls">
                             <button className="bg-blue-300 p-3 m-3 rounded-sm">explore</button>
                         </Link>
@@ -29,7 +29,7 @@ export default function Curated () {
                     <div className="max-w-lg p-6 m-6 border-2 border-blue-300 border-opacity-80 bg-gray-900">
                         <h1 className="text-xl md:text-2xl">LONE STAR COLLECTION</h1>
                         <hr />
-                        <h2 className="text-md md:text-md">Gemstone ❦ 14k Gold ❦ Silver</h2>
+                        <h2 className="text-md md:text-md">Blue Topaz ❦ Moissanite ❦ Sapphire ❦ 14k Gold ❦ 925 Sterling Silver</h2>
                         <Link href="/gems">
                             <button className="bg-blue-300 p-3 m-3 rounded-sm">explore</button>
                         </Link>
