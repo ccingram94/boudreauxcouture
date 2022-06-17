@@ -5,12 +5,10 @@ import austin from '../public/austin.jpg'
 
 export default function Hero () {
     return (
-        <div className="w-screen h-full flex flex-row flex-wrap text-center justify-center">
-            <div className="w-full xl:w-1/2 h-full">
-                <div className="w-full h-full bg-blue-900">
-                    <div className="w-full h-full bg-cover bg-blue-900">
-                        <Image src={austin} className="object-cover opacity-70" />
-                    </div>
+        <div className="w-full max-h-xl flex flex-row flex-wrap text-center justify-center">
+            <div className="bg-austin bg-center bg-cover w-screen xl:w-1/2">
+                <div className="bg-indigo-600 h-full opacity-50">
+                    <Image src={austin} className="opacity-0"/>
                 </div>
             </div>
             <div className="bg-gradient-to-t from-indigo-200 to-gray-200 w-screen xl:w-1/2 text-blue-900 font-cinzel text-center p-12">
